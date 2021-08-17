@@ -1,33 +1,33 @@
 {
-  // // JavaScript 🤮
-  // function jsAdd(num1, num2) {
-  //   return num1 + num2;
-  // }
+  // JavaScript 🤮
+  function jsAdd(num1, num2) {
+    return num1 + num2;
+  }
 
-  // // TypeScript
-  // function add(num1: number, num2: number): number { // 뒤에는 return type
-  //   return num1 + num2;
-  // }
+  // TypeScript
+  function add(num1: number, num2: number): number { // 뒤에는 return type
+    return num1 + num2;
+  }
 
-  // // JavaScript 🤮
-  // function jsFetchNum(id) {
-  //   //..
-  //   //..
-  //   //..
-  //   return new Promise((resolve, reject)) => {
-  //     resolve(100);
-  //   }
-  // }
+  // JavaScript 🤮
+  function jsFetchNum(id) {
+    //..
+    //..
+    //..
+    return new Promise((resolve, reject)) => {
+      resolve(100);
+    }
+  }
 
-  // // TypeScript
-  // function fetchNum(id: string): Promise<number> {
-  //   //..
-  //   //..
-  //   //..
-  //   return new Promise((resolve, reject)) => {
-  //     resolve(100);
-  //   }
-  // }
+  // TypeScript
+  function fetchNum(id: string): Promise<number> {
+    //..
+    //..
+    //..
+    return new Promise((resolve, reject)) => {
+      resolve(100);
+    }
+  }
 
   // 타입을 기록함으로써 좀 더 직관적인 코드를 작성할 수 있음
 
