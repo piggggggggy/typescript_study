@@ -39,5 +39,6 @@
 
   const maker2 = CoffeeMaker.makeMachine(14); // static의 힘, static이 없다면 만들어진 변수 안에서 makemachine을 호출해야함
                                               // ex) maker.makeMachine
+  // static이 없으면 클래스레벨의 함수를 이용할 수 없고 만들어진 오브젝트안에서 호출해야함
   
 }
